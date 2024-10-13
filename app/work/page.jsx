@@ -57,7 +57,7 @@ const projects = [
   },
 ]
 
-const work = () => {
+const Work = () => {
   const [project, setProjects] = useState(projects[0]);
 
  const handleSlideChange = (swiper) => {
@@ -134,6 +134,8 @@ const work = () => {
           {projects.map((project , index)=>{
             return <SwiperSlide key={index} className="w-full">
               <div className="h-[360px] relative group flex justify-center items-center bg-pink-50/20">
+               {/* overlay */}
+               <div></div>
                {/* image */}
                <div className="relative w-full h-full">
                 <Image
@@ -153,4 +155,4 @@ const work = () => {
   </motion.section>
 }
 
-export default work
+export default Work;
