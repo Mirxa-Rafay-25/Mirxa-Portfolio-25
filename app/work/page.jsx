@@ -149,7 +149,7 @@ const Work = () => {
                </div>
               </div>
             </SwiperSlide>
-          })};
+          })}
           {/* slider button */}
           <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] lg:bottom-24 z-20 w-full justify-between lg:w-max lg:justify-none"
           btnStyles="bg-accent hover:bg-black hover:text-accent text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
