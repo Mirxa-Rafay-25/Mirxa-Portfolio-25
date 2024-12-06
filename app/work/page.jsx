@@ -17,44 +17,57 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Frontend",
-    title: "Project 2",
-    description: "NeXGeN – Stay ahead with the latest in web and app development, tech trends, and programming tips. Designed with simplicity, powered by Bootstrap, and dedicated to keeping you at the forefront of digital innovation." ,
-    stack: [{name: "HTML 5"}, {name: "CSS 3"}, {name: "Bootstrap"}],
-    image: "/assets/blog.png",
-    live: "https://frontend-blog-web.vercel.app/",
-    github: "https://github.com/Mirxa-Rafay-25/Frontend-Blog"
+    category: "Ecommerce",
+    title: "Project 1",
+    description: "AURA is a sleek multi-vendor e-commerce marketplace, enabling users to explore, compare, and shop across various brands with ease. This project highlights Muhammad Rafay's skill in creating user-friendly, high-functionality websites." ,
+    stack: [{name: "Next Js"}, {name: "MongoDB"}, {name: "Node Js"}],
+    image: "/assets/AURA Marketplace.png",
+    live: "https://my-responsive-todo-list.vercel.app/",
+    github: "https://github.com/codewithmudassar/project-ecommerce"
   },
+  
   {
     num: "02",
-    category: "Frontend & Animation",
-    title: "Project 1",
-    description: "Venture into the cosmos with our interactive space-themed Next.js website, powered by Framer Motion. Enjoy fluid animations that bring the mysteries of the universe to life, with smooth transitions and dynamic effects that enhance the user experience." ,
+    category: "Animated",
+    title: "Project 2",
+    description: "Venture into the cosmos with our interactive space-themed Next.js website, powered by Framer Motion. Enjoy fluid animations that bring the mysteries of the universe to life, with smooth transitions and dynamic effects ." ,
     stack: [{name: "Next Js"}, {name: "Framer-Moton"}, {name: "Tailwind CSS"}],
     image: "/assets/spacex.png",
     live: "https://spacex-portfolio-eight.vercel.app/",
     github: "https://github.com/Mirxa-Rafay-25/SpaceX"
   },
-  
   {
     num: "03",
-    category: "Frontend",
+    category: "Restaurant",
     title: "Project 3",
-    description: "Comptaways provide a clean, modern layout featuring clear typography and color accents. Built using HTML, CSS, and JavaScript, the site includes interactive elements and animations to enhance user experience, such as trust ratings and pricing displays. Its responsive design ensures seamless viewing on various devices." ,
+    description: "Al-Tastehub is a sleek, user-friendly restaurant website, showcasing a curated menu, exclusive deals, and easy online reservations. Designed for a seamless dining experience, it invites users to explore and savor every detail." ,
+    stack: [{name: "Next Js"}, {name: "MongoDB"}, {name: "Node Js"}],
+    image: "/assets/Al-Tastehub.png",
+    live: "https://al-tastehubfinal.vercel.app/",
+    github: "https://github.com/Mubisherali/restourent"
+  },
+  
+  {
+    num: "04",
+    category: "Frontend",
+    title: "Project 4",
+    description: "Comptaways provide a clean, modern layout featuring clear typography and color accents. Built using HTML, CSS, and JavaScript, the site includes interactive elements and animations to enhance user experience." ,
     stack: [{name: "HTML 5"}, {name: "CSS 3"}, {name: "JavaScript"}],
     image: "/assets/Responsive-landing-page.png",
     live: "https://my-responsive-landing-page.vercel.app/",
     github: "https://github.com/Mirxa-Rafay-25/Responsive-Landing-Page"
   },
+  
+ 
   {
-    num: "04",
-    category: "Full-Stack",
-    title: "Project 4",
-    description: "This to-do list application, named iTask allows users to perform basic CRUD (Create, Read, Update, Delete) operations. Users can add new tasks, view existing ones, update task details, and delete completed or unnecessary tasks. The interface is simple and user-friendly, with a clean design featuring an input field and save button to manage tasks efficiently. The layout is responsive and provides a seamless user experience." ,
-    stack: [{name: "React"}, {name: "Tailwind"}, {name: "JavaScript"}],
-    image: "/assets/Todolist.png",
-    live: "https://my-responsive-todo-list.vercel.app/",
-    github: "https://github.com/Mirxa-Rafay-25/My-TodolList"
+    num: "05",
+    category: "Frontend",
+    title: "Project 5",
+    description: "NeXGeN – Stay ahead with the latest in web and app development, tech trends, and programming tips. Designed with simplicity, powered by Bootstrap, and dedicated to keeping you at the forefront of digital innovation." ,
+    stack: [{name: "HTML 5"}, {name: "CSS 3"}, {name: "Bootstrap"}],
+    image: "/assets/blog.png",
+    live: "https://frontend-blog-web.vercel.app/",
+    github: "https://github.com/Mirxa-Rafay-25/Frontend-Blog"
   },
 ]
 
@@ -143,7 +156,7 @@ const Work = () => {
                 <Image
                 src={project.image}
                 fill
-                className="object-cover"
+                className="object-fill"
                 alt="hello"
                 />
                </div>
