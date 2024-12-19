@@ -22,7 +22,7 @@ const projects = [
     description: "AURA is a sleek multi-vendor e-commerce marketplace, enabling users to explore, compare, and shop across various brands with ease. This project highlights Muhammad Rafay's skill in creating user-friendly, high-functionality websites." ,
     stack: [{name: "Next Js"}, {name: "MongoDB"}, {name: "Node Js"}],
     image: "/assets/AURA Marketplace.png",
-    live: "https://my-responsive-todo-list.vercel.app/",
+    live: "https://aura-marketplace.vercel.app/",
     github: "https://github.com/codewithmudassar/project-ecommerce"
   },
   
