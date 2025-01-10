@@ -65,6 +65,7 @@ const projects = [
     description: "A modern blog application built using React.js for a dynamic frontend and Node.js for a robust backend. Users can explore, create, and share engaging posts on trending topics, enhanced with visually appealing designs and seamless navigation." ,
     stack: [{name: "React Js"}, {name: "Node Js"}, {name: "Tailwind"}],
     image: "/assets/Blog-App.png",
+    live: "https://my-responsive-landing-page.vercel.app/",
     github: "https://github.com/Mirxa-Rafay-25/blog-market"
   },
  
