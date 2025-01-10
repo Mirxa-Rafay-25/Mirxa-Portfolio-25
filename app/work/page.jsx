@@ -57,12 +57,21 @@ const projects = [
     live: "https://my-responsive-landing-page.vercel.app/",
     github: "https://github.com/Mirxa-Rafay-25/Responsive-Landing-Page"
   },
-  
+
+    {
+    num: "05",
+    category: "FullStack",
+    title: "Project 5",
+    description: "A modern blog application built using React.js for a dynamic frontend and Node.js for a robust backend. Users can explore, create, and share engaging posts on trending topics, enhanced with visually appealing designs and seamless navigation." ,
+    stack: [{name: "React Js"}, {name: "Node Js"}, {name: "Tailwind"}],
+    image: "/assets/Responsive-landing-page.png",
+    github: "https://github.com/Mirxa-Rafay-25/blog-market"
+  },
  
   {
-    num: "05",
+    num: "06",
     category: "Frontend",
-    title: "Project 5",
+    title: "Project 6",
     description: "NeXGeN – Stay ahead with the latest in web and app development, tech trends, and programming tips. Designed with simplicity, powered by Bootstrap, and dedicated to keeping you at the forefront of digital innovation." ,
     stack: [{name: "HTML 5"}, {name: "CSS 3"}, {name: "Bootstrap"}],
     image: "/assets/blog.png",
