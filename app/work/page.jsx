@@ -64,7 +64,7 @@ const projects = [
     title: "Project 5",
     description: "A modern blog application built using React.js for a dynamic frontend and Node.js for a robust backend. Users can explore, create, and share engaging posts on trending topics, enhanced with visually appealing designs and seamless navigation." ,
     stack: [{name: "React Js"}, {name: "Node Js"}, {name: "Tailwind"}],
-    image: "/assets/Responsive-landing-page.png",
+    image: "/assets/Blog-App.png",
     github: "https://github.com/Mirxa-Rafay-25/blog-market"
   },
  
