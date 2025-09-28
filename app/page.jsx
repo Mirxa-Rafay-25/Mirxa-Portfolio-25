@@ -24,7 +24,7 @@ const Home = () => {
           </p>
           {/* Btn and socials */}
           <div className="flex flex-col lg:flex-row items-center gap-10">
-            <Link href="/public/associate-software-engineer (1).pdf" download="Mirxa's CV" target="_blank" rel="noopener noreferrer">
+                <Link href="/My CV.pdf" download="Mirxa's CV" target="_blank" rel="noopener noreferrer">
            <Button  variant="outline" size="lg" className="uppercase flex items-center gap-2">
             <span>Download CV</span>
             <FiDownload className="text-xl " />
